@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/label_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dp"
+    android:text="Employee Name"/>
+<TextView
+    android:id="@+id/emp_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/label_name"
+    android:layout_marginLeft="15dp"
+    android:layout_toRightOf="@+id/label_name"
+    android:text="---"/>
+    <TextView
+        android:id="@+id/label_empid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_name"
+        android:layout_marginLeft="3dp"
+
+        android:layout_marginTop="3dp"
+        android:text="EmpId"/>
+    <TextView
+        android:id="@+id/empId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emp_name"
+        android:layout_alignTop="@+id/label_empid"
+        android:text="lllllllllllll"/>
+    <TextView
+        android:id="@+id/label_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_empid"
+
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:text="Date of Joining"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/empId"
+        android:layout_alignTop="@+id/label_date"
+        android:text="19-90-2016"/>
+    <TextView
+        android:id="@+id/label_deptId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_date"
+
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:text="Dept Id"/>
+    <TextView
+        android:id="@+id/deptId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/date"
+        android:layout_alignTop="@+id/label_deptId"
+        android:layout_below="@+id/label_date"
+        android:text="222"/>
+    <TextView
+        android:id="@+id/label_deptName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_deptId"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:text="Department Name"/>
+    <TextView
+        android:id="@+id/depName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/deptId"
+        android:layout_alignTop="@+id/label_deptName"
+        android:layout_marginLeft="2dp"
+        android:text="Android"/>
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/depName"
+        android:layout_width="match_parent"
+        android:background="#909090"
+        android:layout_height="0.2dp"/>
+</RelativeLayout>
